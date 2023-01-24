@@ -19,27 +19,18 @@ Access my site at [google.com](https://google.com)
 
 ## About The App
 
-Todo App is an app that ...
+Todo App is a task management app to help you stay organized and manage your day-to-day
 
 ## Screenshots
 
-`![Writing](https://unsplash.com/photos/VBPzRgd7gfc)`
-
-Picture by [Kelly Sikkema](https://unsplash.com/@kellysikkema)
-
 ## Technologies
 
-I used `react`, `typescript`, ...
+I used `react`, `typescript`, `scss`
 
 ## Setup
 
 -   download or clone the repository
 -   run `npm install`
--   ...
-
-## Approach
-
-I adopted the `BEM` naming style for my css class names and ...
 
 ## Status
 
@@ -53,4 +44,4 @@ List of contriubutors:
 
 ## License
 
-MIT license @ [Alim Shogen](https://www.linkedin.com/in/alims63/)
+MIT license @[Alim Shogen](https://www.linkedin.com/in/alims63/)

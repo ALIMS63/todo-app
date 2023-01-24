@@ -1,8 +1,24 @@
 .page {
-	padding: 30px;
+	width: 100vw;
+	height: 100vh;
 	background-color: floralwhite;
-	width: calc(100vw - 60px);
-	height: calc(100vh - 60px);
+}
+
+.container {
+	max-width: 1140px;
+	padding: 30px;
+	margin: 0 auto;
+
+	@media (max-width: 1200px) {
+		max-width: 960px;
+	}
+	@media (max-width: 992px) {
+		max-width: 720px;
+	}
+	@media (max-width: 768px) {
+		max-width: 540px;
+		padding: 15px;
+	}
 }
 
 .list-wrapper {

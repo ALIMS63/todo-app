@@ -8,7 +8,6 @@ interface IProps {
 }
 
 export const Todo = ({ todo, markTodo, removeTodo }: IProps) => {
-	console.log('todo', todo);
 	return (
 		<div className="todo">
 			<span
@@ -17,7 +16,7 @@ export const Todo = ({ todo, markTodo, removeTodo }: IProps) => {
 			>
 				{todo.text}
 			</span>
-			<div>
+			<div className="buttons-wrapper">
 				<button
 					className="btn-success"
 					onClick={() => markTodo(todo.id)}

@@ -41,19 +41,21 @@ export const MainPage = () => {
 
 	return (
 		<div className="page">
-			<h1>Todo List</h1>
-			<FormTodo addTodo={addTodo} />
-			<div className="list-wrapper">
-				{todos.length
-					? todos.map((todo: ITodo) => (
-							<Todo
-								key={todo.id}
-								todo={todo}
-								markTodo={markTodo}
-								removeTodo={removeTodo}
-							/>
-					  ))
-					: 'There is no todo'}
+			<div className="container">
+				<h1>Todo List</h1>
+				<FormTodo addTodo={addTodo} />
+				<div className="list-wrapper">
+					{todos.length
+						? todos.map((todo: ITodo) => (
+								<Todo
+									key={todo.id}
+									todo={todo}
+									markTodo={markTodo}
+									removeTodo={removeTodo}
+								/>
+						  ))
+						: 'There is no todo'}
+				</div>
 			</div>
 		</div>
 	);

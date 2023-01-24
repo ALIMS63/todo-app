@@ -57,3 +57,14 @@
 		}
 	}
 }
+
+.buttons-wrapper {
+	display: flex;
+}
+
+@media (max-width: 768px) {
+	.todo {
+		padding: 9px 7px;
+		font-size: 14px;
+	}
+}
