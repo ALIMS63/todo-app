@@ -4,7 +4,7 @@ Todo App
 
 ## Demo link:
 
-Access my site at [google.com](https://google.com)
+Access my app at [Todo](https://alims63.github.io/todo-app/)
 
 ## Table of Content:
 
